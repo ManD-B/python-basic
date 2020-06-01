@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>Homework45</title>
+<title>haechanIm</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13098,19 +13098,42 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="4&#51109;-&#50672;&#49845;&#47928;&#51228;-&#54400;&#51060;--&#51076;&#54644;&#52268;-">4&#51109; &#50672;&#49845;&#47928;&#51228; &#54400;&#51060; -&#51076;&#54644;&#52268;-<a class="anchor-link" href="#4&#51109;-&#50672;&#49845;&#47928;&#51228;-&#54400;&#51060;--&#51076;&#54644;&#52268;-">&#182;</a></h1>
+<h1 id="2&#51109;-&#50672;&#49845;&#47928;&#51228;--&#51076;&#54644;&#52268;-">2&#51109; &#50672;&#49845;&#47928;&#51228; -&#51076;&#54644;&#52268;-<a class="anchor-link" href="#2&#51109;-&#50672;&#49845;&#47928;&#51228;--&#51076;&#54644;&#52268;-">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 1. for문을 이용하여 실행 결과와 같은 형태로 출력하는 프로그램을 작성하시오.</span>
-<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
-    <span class="n">y</span> <span class="o">=</span> <span class="s1">&#39;* &#39;</span> <span class="o">*</span> <span class="mi">10</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 1번 문제</span>
+<span class="c1"># 1 숫자 : 정수형과 실수형이 있으며 정수형은 -10, 0, 20 등과 같이 음수, 0, 양수로 이루어지며</span>
+<span class="c1">#         실수형은 -19.2, 10.0, 0.12 와 같이 소수점을 나타내는 데이터형이다.</span>
+<span class="c1"># 2 문자열 : 단어나 문장의 문자로 구성되며 맨 앞쪽과 뒤쪽에 쌍따옴표&quot;나 단따옴표&#39;를 </span>
+<span class="c1">#           붙여 쓰는 데이터형이다.</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 2번 문제</span>
+<span class="n">a</span> <span class="o">=</span> <span class="mi">7</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mi">10</span>
+
+<span class="n">c</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="o">*</span> <span class="mi">2</span>
+<span class="n">c</span> <span class="o">%=</span> <span class="mi">5</span>
+<span class="n">c</span> <span class="o">**=</span> <span class="mi">3</span>
+<span class="n">c</span> <span class="o">-=</span> <span class="n">c</span> <span class="o">*</span> <span class="mi">10</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13127,11 +13150,310 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>* * * * * * * * * * 
-* * * * * * * * * * 
-* * * * * * * * * * 
-* * * * * * * * * * 
-* * * * * * * * * * 
+<pre>-72
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 3번 문제</span>
+<span class="n">radius</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;반지름을 입력하세요 : &#39;</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;반지름 : </span><span class="si">%d</span><span class="s1"> cm&#39;</span> <span class="o">%</span> <span class="n">radius</span><span class="p">)</span>
+
+<span class="n">cir</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">radius</span> <span class="o">*</span> <span class="mf">3.14</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;원의 둘레 : </span><span class="si">%.2f</span><span class="s1"> cm&#39;</span> <span class="o">%</span> <span class="n">cir</span><span class="p">)</span>
+
+<span class="n">area</span> <span class="o">=</span> <span class="mf">3.14</span> <span class="o">*</span> <span class="n">radius</span> <span class="o">**</span> <span class="mi">2</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;원의 면적 : </span><span class="si">%.2f</span><span class="s1"> cm2&#39;</span> <span class="o">%</span> <span class="n">area</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>반지름을 입력하세요 : 10
+반지름 : 10 cm
+원의 둘레 : 62.80 cm
+원의 면적 : 314.00 cm2
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 4번 문제</span>
+<span class="n">cost</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;책 값을 입력하세요 : &#39;</span><span class="p">))</span>
+<span class="n">discount</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;할인율을 입력하세요(%) : &#39;</span><span class="p">))</span>
+<span class="n">charge</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;배송료를 입력하세요 : &#39;</span><span class="p">))</span>
+
+<span class="n">pay</span> <span class="o">=</span> <span class="n">cost</span> <span class="o">-</span> <span class="p">(</span><span class="n">cost</span> <span class="o">*</span> <span class="n">discount</span> <span class="o">/</span> <span class="mi">100</span><span class="p">)</span> <span class="o">+</span> <span class="n">charge</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;결제 금액 : </span><span class="si">%d</span><span class="s1">원&#39;</span> <span class="o">%</span> <span class="n">pay</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>책 값을 입력하세요 : 15000
+할인율을 입력하세요(%) : 15
+배송료를 입력하세요 : 3000
+결제 금액 : 15750원
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 5번 문제</span>
+<span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;이름을 입력하세요 : &#39;</span><span class="p">)</span>
+<span class="n">current</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;현재년을 입력하세요 : &#39;</span><span class="p">))</span>
+<span class="n">birth</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;탄생년을 입력하세요 : &#39;</span><span class="p">))</span>
+
+<span class="n">age</span> <span class="o">=</span> <span class="n">current</span> <span class="o">-</span> <span class="n">birth</span> <span class="o">+</span> <span class="mi">1</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%s</span><span class="s1">님의 나이는 </span><span class="si">%d</span><span class="s1">세 입니다!&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>이름을 입력하세요 : 안지영
+현재년을 입력하세요 : 2020
+탄생년을 입력하세요 : 1997
+안지영님의 나이는 24세 입니다!
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 6번 문제</span>
+<span class="n">year</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;연을 입력하세요 : &#39;</span><span class="p">))</span>
+<span class="n">month</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;월을 입력하세요 : &#39;</span><span class="p">))</span>
+<span class="n">day</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;일을 입력하세요 : &#39;</span><span class="p">))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%04d</span><span class="s1">-</span><span class="si">%02d</span><span class="s1">-</span><span class="si">%02d</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">year</span><span class="p">,</span> <span class="n">month</span><span class="p">,</span> <span class="n">day</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>연을 입력하세요 : 2020
+월을 입력하세요 : 1
+일을 입력하세요 : 5
+2020-01-05
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="3&#51109;-&#50672;&#49845;&#47928;&#51228;">3&#51109; &#50672;&#49845;&#47928;&#51228;<a class="anchor-link" href="#3&#51109;-&#50672;&#49845;&#47928;&#51228;">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 1번 문제</span>
+<span class="c1"># a    b    c      a!=2    not(b&gt;=a)  c/2 &gt; a*3</span>
+<span class="c1"># 2    5   -3      False     False      False</span>
+<span class="c1"># 3    7   -4      True      False      False</span>
+<span class="c1"># -10  10  -2      True      False      True</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 2번 문제</span>
+<span class="c1"># a    b    c  a&gt;2 or c&gt;b and c&gt;2       not(a&gt;5 or b&gt;c and c&gt;=3)</span>
+<span class="c1"># -5   3    2        False                        True</span>
+<span class="c1"># 10   5    7        True                         False</span>
+<span class="c1"># -3   10   2        False                        True</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 3번 문제</span>
+<span class="n">a</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">z</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="mi">5</span>
+<span class="n">w</span> <span class="o">=</span> <span class="p">(</span><span class="n">z</span> <span class="o">-</span> <span class="mi">3</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span> <span class="o">/</span> <span class="mi">7</span> <span class="o">+</span> <span class="mi">10</span>
+
+<span class="k">if</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="n">z</span> <span class="ow">or</span> <span class="n">w</span> <span class="o">&gt;</span> <span class="n">a</span> <span class="p">:</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">a</span>
+<span class="k">else</span> <span class="p">:</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="mi">4</span> <span class="o">*</span> <span class="n">a</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>4
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 4번 문제</span>
+<span class="n">unit</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;단위를 입력하세요(1 : 섭씨, 2 : 화씨) : &#39;</span><span class="p">)</span>
+<span class="n">temp</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;온도를 입력하세요 : &#39;</span><span class="p">))</span>
+
+<span class="k">if</span> <span class="n">unit</span> <span class="o">==</span> <span class="s1">&#39;1&#39;</span><span class="p">:</span>       <span class="c1"># 섭씨를 입력 후 화씨값을 돌려받음</span>
+    <span class="n">feh</span> <span class="o">=</span> <span class="p">(</span><span class="n">temp</span> <span class="o">*</span> <span class="mi">9</span> <span class="o">/</span> <span class="mi">5</span><span class="p">)</span> <span class="o">+</span> <span class="mi">32</span>
+    
+    <span class="k">if</span> <span class="n">feh</span> <span class="o">&gt;=</span> <span class="nb">float</span><span class="p">(</span><span class="s1">&#39;212&#39;</span><span class="p">):</span>
+        <span class="n">state</span> <span class="o">=</span> <span class="s1">&#39;기체&#39;</span>
+    <span class="k">elif</span> <span class="n">feh</span> <span class="o">&gt;</span> <span class="nb">float</span><span class="p">(</span><span class="s1">&#39;32&#39;</span><span class="p">):</span>
+        <span class="n">state</span> <span class="o">=</span> <span class="s1">&#39;액체&#39;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">state</span> <span class="o">=</span> <span class="s1">&#39;고체&#39;</span>
+        
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;물의 화씨 온도 : </span><span class="si">%.2f</span><span class="s1">, 상태 : </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span><span class="p">(</span><span class="n">feh</span><span class="p">,</span> <span class="n">state</span><span class="p">))</span>
+<span class="k">else</span><span class="p">:</span>                 <span class="c1"># 화씨를 입력 후 섭씨값을 돌려받음</span>
+    <span class="n">cel</span> <span class="o">=</span> <span class="p">(</span><span class="n">temp</span> <span class="o">-</span><span class="mi">32</span><span class="p">)</span> <span class="o">*</span> <span class="mi">5</span> <span class="o">/</span> <span class="mi">9</span>
+    
+    <span class="k">if</span> <span class="n">cel</span> <span class="o">&gt;=</span> <span class="nb">float</span><span class="p">(</span><span class="s1">&#39;100&#39;</span><span class="p">):</span>
+        <span class="n">state</span> <span class="o">=</span> <span class="s1">&#39;기체&#39;</span>
+    <span class="k">elif</span> <span class="n">cel</span> <span class="o">&gt;</span> <span class="nb">float</span><span class="p">(</span><span class="s1">&#39;0&#39;</span><span class="p">):</span>
+        <span class="n">state</span> <span class="o">=</span> <span class="s1">&#39;액체&#39;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">state</span> <span class="o">=</span> <span class="s1">&#39;고체&#39;</span>
+        
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;물의 섭씨 온도 : </span><span class="si">%.2f</span><span class="s1">, 상태 : </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span><span class="p">(</span><span class="n">cel</span><span class="p">,</span> <span class="n">state</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>단위를 입력하세요(1 : 섭씨, 2 : 화씨) : 2
+온도를 입력하세요 : 80
+물의 섭씨 온도 : 26.67, 상태 : 액체
 </pre>
 </div>
 </div>
@@ -13145,12 +13467,18 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 2. while문을 이용하여 1번 문제와 동일한 결과를 가져오는 프로그램을 작성하시오.</span>
-<span class="n">x</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">while</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
-    <span class="n">y</span> <span class="o">=</span> <span class="s1">&#39;* &#39;</span> <span class="o">*</span> <span class="mi">10</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
-    <span class="n">x</span> <span class="o">+=</span> <span class="mi">1</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 5번 문제</span>
+<span class="nb">id</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;아이디를 입력하세요 : &#39;</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="nb">id</span> <span class="o">==</span> <span class="s1">&#39;admin&#39;</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;모든 컨텐츠 이용 가능&#39;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">level</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;회원 레벨을 입력해 주세요 : &#39;</span><span class="p">))</span>
+    
+    <span class="k">if</span> <span class="n">level</span> <span class="o">&gt;=</span> <span class="mi">2</span> <span class="ow">and</span> <span class="n">level</span> <span class="o">&lt;=</span><span class="mi">7</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;일부 콘텐츠 이용 가능&#39;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;콘텐츠 이용 불가&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13167,11 +13495,9 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>* * * * * * * * * * 
-* * * * * * * * * * 
-* * * * * * * * * * 
-* * * * * * * * * * 
-* * * * * * * * * * 
+<pre>아이디를 입력하세요 : rabato
+회원 레벨을 입력해 주세요 : 3
+일부 콘텐츠 이용 가능
 </pre>
 </div>
 </div>
@@ -13185,11 +13511,17 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 3. for문을 이용하여 실행 결과와 같은 형태로 출력하는 프로그램을 작성하시오.</span>
-<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
-    <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">end</span> <span class="o">=</span> <span class="s1">&#39; &#39;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 6번 문제</span>
+<span class="n">age</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;나이를 입력하세요 : &#39;</span><span class="p">))</span>
+
+<span class="k">if</span> <span class="n">age</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="p">:</span>
+    <span class="n">cost</span> <span class="o">=</span> <span class="mi">1000</span>
+<span class="k">elif</span> <span class="n">age</span> <span class="o">&gt;=</span><span class="mi">65</span><span class="p">:</span>
+    <span class="n">cost</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">cost</span> <span class="o">=</span> <span class="mi">2000</span>
+    
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;입장료는 </span><span class="si">%d</span><span class="s1">원 입니다.&#39;</span> <span class="o">%</span> <span class="n">cost</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13206,54 +13538,8 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>6 6 6 6 6 6 
-5 5 5 5 5 
-4 4 4 4 
-3 3 3 
-2 2 
-1 
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 4. for문을 이용하여 실행 결과와 같은 형태로 출력하는 프로그램을 작성하시오.</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">):</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">):</span>
-        <span class="k">if</span> <span class="n">j</span> <span class="o">==</span> <span class="n">i</span><span class="p">:</span>
-            <span class="k">break</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">j</span><span class="p">,</span> <span class="n">end</span> <span class="o">=</span> <span class="s1">&#39; &#39;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>0 
-0 1 
-0 1 2 
-0 1 2 3 
-0 1 2 3 4 
-0 1 2 3 4 5 
+<pre>나이를 입력하세요 : 6
+입장료는 1000원 입니다.
 </pre>
 </div>
 </div>
@@ -13267,13 +13553,16 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 5. for문을 이용하여 실행 결과와 같은 형태로 출력하는 프로그램을 작성하시오.</span>
-<span class="n">x</span> <span class="o">=</span> <span class="s1">&#39;*&#39;</span> <span class="o">*</span> <span class="mi">8</span>
-<span class="n">y</span> <span class="o">=</span> <span class="s1">&#39;*      *&#39;</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 7번 문제</span>
+<span class="n">eng</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;영어시험 점수를 입력하세요 : &#39;</span><span class="p">))</span>
+<span class="n">math</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;수합시험 점수를 입력하세요 : &#39;</span><span class="p">))</span>
+
+<span class="k">if</span> <span class="n">eng</span> <span class="o">&gt;=</span> <span class="mi">80</span> <span class="ow">and</span> <span class="n">math</span> <span class="o">&gt;=</span> <span class="mi">80</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;합격&#39;</span><span class="p">)</span>
+<span class="k">elif</span> <span class="n">eng</span> <span class="o">&lt;</span> <span class="mi">80</span> <span class="ow">and</span> <span class="n">math</span> <span class="o">&lt;</span> <span class="mi">80</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;불합격&#39;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;재시험 기회제공&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13290,329 +13579,9 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>********
-*      *
-*      *
-*      *
-*      *
-*      *
-*      *
-********
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 6. 1~100까지 수 중에서 홀수와 홀수의 합을 실행 결과와 같이 출력하는 프로그램을 작성하시오.</span>
-<span class="nb">sum</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">101</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">i</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-        <span class="nb">sum</span> <span class="o">+=</span> <span class="n">i</span>
-        <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">99</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%d</span><span class="s2"> + &quot;</span> <span class="o">%</span><span class="k">i</span>, end = &#39;&#39;)
-        <span class="k">else</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%d</span><span class="s2"> = &quot;</span> <span class="o">%</span><span class="k">i</span>, end = &#39;&#39;)
-<span class="nb">print</span><span class="p">(</span><span class="nb">sum</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 + 27 + 29 + 31 + 33 + 35 + 37 + 39 + 41 + 43 + 45 + 47 + 49 + 51 + 53 + 55 + 57 + 59 + 61 + 63 + 65 + 67 + 69 + 71 + 73 + 75 + 77 + 79 + 81 + 83 + 85 + 87 + 89 + 91 + 93 + 95 + 97 + 99 = 2500
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 7. N을 입력 받아 다음과 같은 수식의 결과를 얻는 프로그램을 작성하시오.</span>
-<span class="n">N</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;N의 값을 입력하세요 : &quot;</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;N의 값 : </span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span><span class="k">N</span>)
-<span class="nb">sum</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">N</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">):</span>
-    <span class="n">y</span> <span class="o">=</span> <span class="n">x</span> <span class="o">**</span> <span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
-    <span class="nb">sum</span> <span class="o">+=</span> <span class="n">y</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;합계 : </span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span><span class="k">sum</span>)
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>N의 값을 입력하세요 : 12
-N의 값 : 12
-합계 : 744010475682
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 8. N값을 입력받아 1부터 N까지의 수 중에서 소수를 구하는 프로그램을 작성하시오.</span>
-<span class="n">N</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;N 값을 입력해주세요 : &quot;</span><span class="p">))</span>
-<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">N</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-    <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">N</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-        <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="n">y</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-            <span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="n">y</span> <span class="ow">and</span> <span class="n">x</span> <span class="o">%</span> <span class="n">y</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-                <span class="k">break</span>
-            <span class="k">else</span><span class="p">:</span>
-                <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">end</span> <span class="o">=</span> <span class="s1">&#39; &#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>N 값을 입력해주세요 : 200
-2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 101 103 107 109 113 127 131 137 139 149 151 157 163 167 173 179 181 191 193 197 199 </pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 9. while문을 이용하여 달러(＄), 원화(원), 유로(￠)의 환산표를 만드는 프로그램을 작성하시오.</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span><span class="s1">&#39;-&#39;</span> <span class="o">*</span> <span class="mi">50</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2"> 달러(＄) 원화(원) 유로(￠)</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s1">&#39;-&#39;</span> <span class="o">*</span> <span class="mi">50</span><span class="p">)</span>
-<span class="k">for</span> <span class="n">dollar</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">101</span><span class="p">,</span> <span class="mi">10</span><span class="p">):</span>
-    <span class="n">won</span> <span class="o">=</span> <span class="n">dollar</span> <span class="o">*</span> <span class="mi">1080</span>
-    <span class="n">euro</span> <span class="o">=</span> <span class="n">dollar</span> <span class="o">*</span> <span class="mf">0.81</span>
-    <span class="k">if</span> <span class="n">dollar</span> <span class="o">!=</span> <span class="mi">100</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;    </span><span class="si">%d</span><span class="s2">     </span><span class="si">%d</span><span class="s2">    </span><span class="si">%.1f</span><span class="s2">&quot;</span> <span class="o">%</span><span class="p">(</span><span class="n">dollar</span><span class="p">,</span> <span class="n">won</span><span class="p">,</span> <span class="n">euro</span><span class="p">))</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;   </span><span class="si">%d</span><span class="s2">    </span><span class="si">%d</span><span class="s2">    </span><span class="si">%.1f</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="o">%</span><span class="p">(</span><span class="n">dollar</span><span class="p">,</span> <span class="n">won</span><span class="p">,</span> <span class="n">euro</span><span class="p">),</span> <span class="s1">&#39;-&#39;</span> <span class="o">*</span> <span class="mi">50</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre> -------------------------------------------------- 
- 달러(＄) 원화(원) 유로(￠)
- --------------------------------------------------
-    10     10800    8.1
-    20     21600    16.2
-    30     32400    24.3
-    40     43200    32.4
-    50     54000    40.5
-    60     64800    48.6
-    70     75600    56.7
-    80     86400    64.8
-    90     97200    72.9
-   100    108000    81.0
- --------------------------------------------------
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 10. while문을 이용하여 센티미터(cm), 밀리미터(mm), 미터(m), 인치(inch)의 길이 환산표를</span>
-<span class="c1">#     만드는 프로그램을 작성하시오.</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span><span class="s1">&#39;-&#39;</span> <span class="o">*</span> <span class="mi">50</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">    cm   mm    m     inch</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s1">&#39;-&#39;</span> <span class="o">*</span> <span class="mi">50</span><span class="p">)</span>
-<span class="k">for</span> <span class="n">cm</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">):</span>
-    <span class="n">mm</span> <span class="o">=</span> <span class="n">cm</span> <span class="o">*</span> <span class="mi">10</span>
-    <span class="n">m</span> <span class="o">=</span> <span class="n">cm</span> <span class="o">*</span> <span class="mf">0.01</span>
-    <span class="n">inch</span> <span class="o">=</span> <span class="n">cm</span> <span class="o">*</span> <span class="mf">0.3937</span>
-    <span class="k">if</span> <span class="n">cm</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;     </span><span class="si">%d</span><span class="s2">   </span><span class="si">%d</span><span class="s2">   </span><span class="si">%.2f</span><span class="s2">   </span><span class="si">%.2f</span><span class="s2">&quot;</span> <span class="o">%</span><span class="p">(</span><span class="n">cm</span><span class="p">,</span> <span class="n">mm</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">inch</span><span class="p">))</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;    </span><span class="si">%d</span><span class="s2">  </span><span class="si">%d</span><span class="s2">   </span><span class="si">%.2f</span><span class="s2">   </span><span class="si">%.2f</span><span class="s2">&quot;</span> <span class="o">%</span><span class="p">(</span><span class="n">cm</span><span class="p">,</span> <span class="n">mm</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">inch</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;-&#39;</span> <span class="o">*</span> <span class="mi">50</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre> -------------------------------------------------- 
-    cm   mm    m     inch
- --------------------------------------------------
-     1   10   0.01   0.39
-     2   20   0.02   0.79
-     3   30   0.03   1.18
-     4   40   0.04   1.57
-     5   50   0.05   1.97
-     6   60   0.06   2.36
-     7   70   0.07   2.76
-     8   80   0.08   3.15
-     9   90   0.09   3.54
-    10  100   0.10   3.94
-    11  110   0.11   4.33
-    12  120   0.12   4.72
-    13  130   0.13   5.12
-    14  140   0.14   5.51
-    15  150   0.15   5.91
-    16  160   0.16   6.30
-    17  170   0.17   6.69
-    18  180   0.18   7.09
-    19  190   0.19   7.48
-    20  200   0.20   7.87
-    21  210   0.21   8.27
-    22  220   0.22   8.66
-    23  230   0.23   9.06
-    24  240   0.24   9.45
-    25  250   0.25   9.84
-    26  260   0.26   10.24
-    27  270   0.27   10.63
-    28  280   0.28   11.02
-    29  290   0.29   11.42
-    30  300   0.30   11.81
-    31  310   0.31   12.20
-    32  320   0.32   12.60
-    33  330   0.33   12.99
-    34  340   0.34   13.39
-    35  350   0.35   13.78
-    36  360   0.36   14.17
-    37  370   0.37   14.57
-    38  380   0.38   14.96
-    39  390   0.39   15.35
-    40  400   0.40   15.75
-    41  410   0.41   16.14
-    42  420   0.42   16.54
-    43  430   0.43   16.93
-    44  440   0.44   17.32
-    45  450   0.45   17.72
-    46  460   0.46   18.11
-    47  470   0.47   18.50
-    48  480   0.48   18.90
-    49  490   0.49   19.29
-    50  500   0.50   19.68
-    51  510   0.51   20.08
-    52  520   0.52   20.47
-    53  530   0.53   20.87
-    54  540   0.54   21.26
-    55  550   0.55   21.65
-    56  560   0.56   22.05
-    57  570   0.57   22.44
-    58  580   0.58   22.83
-    59  590   0.59   23.23
-    60  600   0.60   23.62
-    61  610   0.61   24.02
-    62  620   0.62   24.41
-    63  630   0.63   24.80
-    64  640   0.64   25.20
-    65  650   0.65   25.59
-    66  660   0.66   25.98
-    67  670   0.67   26.38
-    68  680   0.68   26.77
-    69  690   0.69   27.17
-    70  700   0.70   27.56
-    71  710   0.71   27.95
-    72  720   0.72   28.35
-    73  730   0.73   28.74
-    74  740   0.74   29.13
-    75  750   0.75   29.53
-    76  760   0.76   29.92
-    77  770   0.77   30.31
-    78  780   0.78   30.71
-    79  790   0.79   31.10
-    80  800   0.80   31.50
-    81  810   0.81   31.89
-    82  820   0.82   32.28
-    83  830   0.83   32.68
-    84  840   0.84   33.07
-    85  850   0.85   33.46
-    86  860   0.86   33.86
-    87  870   0.87   34.25
-    88  880   0.88   34.65
-    89  890   0.89   35.04
-    90  900   0.90   35.43
-    91  910   0.91   35.83
-    92  920   0.92   36.22
-    93  930   0.93   36.61
-    94  940   0.94   37.01
-    95  950   0.95   37.40
-    96  960   0.96   37.80
-    97  970   0.97   38.19
-    98  980   0.98   38.58
-    99  990   0.99   38.98
---------------------------------------------------
+<pre>영어시험 점수를 입력하세요 : 85
+수합시험 점수를 입력하세요 : 75
+재시험 기회제공
 </pre>
 </div>
 </div>
@@ -13624,439 +13593,9 @@ N의 값 : 12
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="5&#51109;-&#50672;&#49845;&#47928;&#51228;-&#54400;&#51060;">5&#51109; &#50672;&#49845;&#47928;&#51228; &#54400;&#51060;<a class="anchor-link" href="#5&#51109;-&#50672;&#49845;&#47928;&#51228;-&#54400;&#51060;">&#182;</a></h1>
+<h1 id="&#49688;&#44256;&#54616;&#49512;&#49845;&#45768;&#45796;.">&#49688;&#44256;&#54616;&#49512;&#49845;&#45768;&#45796;.<a class="anchor-link" href="#&#49688;&#44256;&#54616;&#49512;&#49845;&#45768;&#45796;.">&#182;</a></h1>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># ■ 다음은 리스트 data에 관련된 문제이다 물음에 답하시오.(1번~5번 문제)</span>
-<span class="c1"># data = [-12, 3, -9, 5, 8, -2, 0, -8, 3, 10]</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 1. for문을 이용하여 data의 요소들 중에서 가장 큰 수를 찾는 프로그램을 작성하시오.</span>
-<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">12</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">9</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">8</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
-<span class="n">max_num</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">)):</span>
-    <span class="k">if</span> <span class="n">data</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">max_num</span><span class="p">:</span>
-        <span class="n">max_num</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;가장 큰 수 : </span><span class="si">%d</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">max_num</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>가장 큰 수 : 10
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 2. while문을 이용하여 짝수 번째 요소들의 합과 평균을 구하는 프로그램을 작성하시오.</span>
-<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">12</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">9</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">8</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
-<span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="nb">sum</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="n">avg</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
-    <span class="nb">sum</span> <span class="o">+=</span> <span class="n">data</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-    <span class="n">i</span> <span class="o">+=</span> <span class="mi">2</span>
-<span class="n">avg</span> <span class="o">=</span> <span class="nb">sum</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">)</span> <span class="o">*</span> <span class="mi">2</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;합계 : </span><span class="si">%d</span><span class="s1">, 평균 : </span><span class="si">%.2f</span><span class="s1">&#39;</span> <span class="o">%</span><span class="p">(</span><span class="nb">sum</span><span class="p">,</span> <span class="n">avg</span><span class="p">))</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>합계 : 8, 평균 : 1.60
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 3. 리스트 메소드를 이용하여 data를 내림차순으로 정렬하는 프로그램을 작성하시오.</span>
-<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">12</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">9</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">8</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
-<span class="n">data</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">reverse</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">)):</span>
-    <span class="n">a</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">end</span> <span class="o">=</span> <span class="s1">&#39; &#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>10 8 5 3 3 0 -2 -8 -9 -12 </pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 4. data의 4번째 요소에 데이터 100을 추가하는 프로그램을 작성하시오</span>
-<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">12</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">9</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">8</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
-<span class="n">data</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">)):</span>
-    <span class="n">a</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">end</span> <span class="o">=</span> <span class="s1">&#39; &#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>-12 3 -9 100 5 8 -2 0 -8 3 10 </pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 5. data에서 -12의 값을 가진 요소를 삭제하는 프로그램을 작성하시오</span>
-<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">12</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">9</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">8</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
-<span class="n">data</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="o">-</span><span class="mi">12</span><span class="p">)</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">)):</span>
-    <span class="n">a</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">end</span> <span class="o">=</span> <span class="s1">&#39; &#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>3 -9 5 8 -2 0 -8 3 10 </pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># ■ 9 x 9의 미니 바둑판에 돌이 놓여 있는 정보를 저장한 2차원 리스트</span>
-<span class="c1"># stone은 다음과 같다ㅏ. 물음에 답하시오.(6번~9번 문제)</span>
-<span class="n">stone</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>\
-        <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>\
-        <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>\
-        <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>\
-        <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span>\
-        <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>\
-        <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>\
-        <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>\
-        <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]]</span>
-<span class="c1"># ※리스트 요소의 숫자는 다음을 의미한다.</span>
-<span class="c1"># -0 : 돌없음</span>
-<span class="c1"># -1 : 흑돌</span>
-<span class="c1"># -2 : 백돌</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 6. 흑돌과 백돌의 개수를 카운트하는 프로그램을 작성하시오.</span>
-<span class="n">black_sum</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="n">white_sum</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">stone</span><span class="p">))</span> <span class="p">:</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">stone</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span> <span class="p">:</span>
-        <span class="k">if</span> <span class="n">stone</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span> <span class="p">:</span>
-            <span class="n">black_sum</span> <span class="o">+=</span> <span class="mi">1</span>
-    
-        <span class="k">elif</span> <span class="n">stone</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="mi">2</span> <span class="p">:</span>
-            <span class="n">white_sum</span> <span class="o">+=</span> <span class="mi">1</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;흑돌의 개수 : </span><span class="si">%d</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">black_sum</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;백돌의 개수 : </span><span class="si">%d</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">white_sum</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>흑돌의 개수 : 17
-백돌의 개수 : 16
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 7. 실행 결과와 같이 흑돌(●), 백돌(○), 돌이 없는 곳(X)을 표시하는</span>
-<span class="c1">#    프로그램을 작성하시오.</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">stone</span><span class="p">))</span> <span class="p">:</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">stone</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span> <span class="p">:</span>
-        <span class="k">if</span> <span class="n">stone</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span> <span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%3s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="s1">&#39;●&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
-        <span class="k">elif</span> <span class="n">stone</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="mi">2</span> <span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%3s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="s1">&#39;○&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
-        <span class="k">else</span> <span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%3s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="s1">&#39;X&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>  X  X  X  X  X  X  X  X  X
-  X  ●  X  ●  ○  ●  ○  ●  X
-  X  ○  ●  ●  ●  ○  ○  X  X
-  X  X  ○  ○  ○  ●  X  ○  X
-  X  X  X  X  X  ●  X  ○  ●
-  X  X  X  ○  X  ●  ○  ●  X
-  X  X  X  ○  ●  X  ●  ●  X
-  X  X  X  ●  ●  X  X  X  X
-  X  X  X  X  ○  ○  ○  X  X
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 8. 7번 문제의 결과에 추가로 실행 결과에서와 같이 바둑판의 좌측과</span>
-<span class="c1">#    상단에 좌표 값을 삽입하는 프로그램을 작성하시오.</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;    &#39;</span><span class="p">,</span><span class="n">end</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
-<span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span> <span class="p">:</span>
-    <span class="n">num_top</span> <span class="o">=</span> <span class="n">a</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;0</span><span class="si">%d</span><span class="s1"> &#39;</span> <span class="o">%</span> <span class="n">num_top</span><span class="p">,</span> <span class="n">end</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">()</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">stone</span><span class="p">))</span> <span class="p">:</span>
-    <span class="n">num_left</span> <span class="o">=</span> <span class="n">i</span><span class="o">+</span><span class="mi">1</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;0</span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">num_left</span><span class="p">,</span> <span class="n">end</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">stone</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span> <span class="p">:</span>
-        <span class="k">if</span> <span class="n">stone</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span> <span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%3s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="s1">&#39;●&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
-        <span class="k">elif</span> <span class="n">stone</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="mi">2</span> <span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%3s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="s1">&#39;○&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
-        <span class="k">else</span> <span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%3s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="s1">&#39;X&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>    01 02 03 04 05 06 07 08 09 
-01  X  X  X  X  X  X  X  X  X
-02  X  ●  X  ●  ○  ●  ○  ●  X
-03  X  ○  ●  ●  ●  ○  ○  X  X
-04  X  X  ○  ○  ○  ●  X  ○  X
-05  X  X  X  X  X  ●  X  ○  ●
-06  X  X  X  ○  X  ●  ○  ●  X
-07  X  X  X  ○  ●  X  ●  ●  X
-08  X  X  X  ●  ●  X  X  X  X
-09  X  X  X  X  ○  ○  ○  X  X
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 9. 완성된 8번의 프로그램을 수정하여 키보드로 X와 Y의 좌표 값을 입력받아</span>
-<span class="c1">#    흑돌, 백돌, 돌없음을 출력하는 프로그램을 작성하시오.</span>
-<span class="n">row</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="n">column</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">while</span> <span class="mi">1</span> <span class="p">:</span>
-    <span class="n">row</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;X축 좌표값을 입력하세요(1~9, 종료 시 -1 입력) : &#39;</span><span class="p">))</span>
-    <span class="k">if</span> <span class="n">row</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span> <span class="p">:</span>
-        <span class="k">break</span>
-    <span class="n">column</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Y축 좌표값을 입력하세요(1~9, 종료 시 -1 입력) : &#39;</span><span class="p">))</span>
-    <span class="k">if</span> <span class="n">column</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span> <span class="p">:</span>
-        <span class="k">break</span>
-    <span class="k">if</span> <span class="n">stone</span><span class="p">[</span><span class="n">column</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">row</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;흑돌&#39;</span><span class="p">)</span>
-    <span class="k">elif</span> <span class="n">stone</span><span class="p">[</span><span class="n">column</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">row</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;백돌&#39;</span><span class="p">)</span>
-    <span class="k">else</span> <span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;돌없음&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;종료되었습니다!&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>X축 좌표값을 입력하세요(1~9, 종료 시 -1 입력) : 9
-Y축 좌표값을 입력하세요(1~9, 종료 시 -1 입력) : 5
-흑돌
-X축 좌표값을 입력하세요(1~9, 종료 시 -1 입력) : 7
-Y축 좌표값을 입력하세요(1~9, 종료 시 -1 입력) : 2
-백돌
-X축 좌표값을 입력하세요(1~9, 종료 시 -1 입력) : 4
-Y축 좌표값을 입력하세요(1~9, 종료 시 -1 입력) : 1
-돌없음
-X축 좌표값을 입력하세요(1~9, 종료 시 -1 입력) : -1
-종료되었습니다!
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
     </div>
   </div>
