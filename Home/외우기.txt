@@ -1,0 +1,1 @@
+Docmd.OpenReport "보고서이름",acViewPreview,,조건
